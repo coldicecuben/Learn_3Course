@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Lab1_NonQuad.dir/main.cpp.o"
-  "Lab1_NonQuad"
+  "CMakeFiles/Lab1_NonQuad.dir/main.cpp.obj"
+  "Lab1_NonQuad.exe"
+  "Lab1_NonQuad.exe.manifest"
   "Lab1_NonQuad.pdb"
+  "libLab1_NonQuad.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

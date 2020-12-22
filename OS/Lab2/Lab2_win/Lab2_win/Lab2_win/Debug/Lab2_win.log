@@ -1,4 +1,1 @@
-﻿  Lab2_win.cpp
-D:\Documents\Learn_3Course\OS\Lab2\Lab2_win\Lab2_win\Lab2_win\Lab2_win.cpp(163,28): warning C4244: 'argument': conversion from 'double' to 'DWORD', possible loss of data
-D:\Documents\Learn_3Course\OS\Lab2\Lab2_win\Lab2_win\Lab2_win\Lab2_win.cpp(218,28): warning C4244: 'argument': conversion from 'double' to 'DWORD', possible loss of data
-  Lab2_win.vcxproj -> D:\Documents\Learn_3Course\OS\Lab2\Lab2_win\Lab2_win\Debug\Lab2_win.exe
+﻿  Lab2_win.vcxproj -> D:\Documents\Learn_3Course\OS\Lab2\Lab2_win\Lab2_win\Debug\Lab2_win.exe
