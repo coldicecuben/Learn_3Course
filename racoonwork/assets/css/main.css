@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+
+body {
+    background-color: #FAF4F4;
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+a, p {
+    font-family: 'Actor', sans-serif;
+}
+
+p {
+    font-size: 24px;
+}
+
+nav .bg-light {
+    background-color: #FAF4F4;
+}
+
+.navbar {
+    height: 15vh;
+    font-size: 20px;
+    background-color: #FFF;
+}
+
+.navbar-brand {
+    font-family: 'Actor', sans-serif;
+    font-size: 40px;
+}
+
+.navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a {
+    text-decoration: none;
+    position: relative;
+    color: darkgrey;
+}
+
+.navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:after {
+    content: '';
+
+    width: 100%;
+    position: relative;
+    left: 0;
+    bottom: 0px;
+
+    border-width: 0 0 1px;
+    border-style: solid;
+}
+
+.enot {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30vh;
+    display: block;
+}
+
+.find {
+    display: flex;
+    vertical-align: center;
+    text-align: left;
+    margin-top: 35vh;
+    margin-bottom: auto;
+}
+
+.searchbar {
+    display: block;
+    margin-top: 40px;
+}
+
+.searchbar img {
+    width: 32px;
+    vertical-align: center;
+    margin-left: 1vw;
+    margin-top: -2vh;
+    margin-bottom: auto;
+}
+
+.searchbar input {
+    background-color: #FAF4F4;
+    height: 50px;
+}
+
+.searchbar input[placeholder] {
+    font-size: 30px;
+    padding-left: 15px;
+}
+
+.post {
+    margin-top: 15vh;
+}
+
+.post p {
+    margin-top: 10%;
+    margin-left: 15%;
+    text-transform: uppercase;
+}
+
+.post button {
+    margin-left: 15%;
+    background-color: #C4C4C4;
+    font-size: 24px;
+    width: 59%;
+    height: 20%;
+    border-radius: 15vw;
+    border: 0px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.vacancy {
+    margin-top: 2%;
+    text-align: right;
+}
+
+.popular {
+    text-align: center;
+    margin-top: 64px;
+}
+
+.popular h1 {
+    margin-bottom: 100px;
+}
+
+.popular .vac_name img {
+    margin-bottom: 40px;
+}
+
+.vac_name a {
+    color: black;
+    text-decoration: inherit;
+}
+
+.vac_name a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 100px;
+    padding-top: 55px;
+    font-size: 24px;
+    background-color: #FFFAF0;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+footer ul li a {
+    color: black;
+    text-decoration: inherit;
+}
+
+footer ul li a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.to_the {
+    margin-bottom: 24px;
+}
+
+footer ul li button{
+    width: 216px;
+    height: 50px;
+    border: 0px;
+    border-radius: 100vw;
+}
+
+.rights {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.rights p {
+    font-size: 14px;
+    line-height: 10px;
+}
+
+.login{
+    margin-top: 25vh;
+    text-align: center;
+}
+
+.login input {
+    background-color: #FAF4F4;
+    margin-bottom: 15px;
+    width: 490px;
+    height: 64px;
+}
+
+.login input[placeholder]{
+    font-size: 24px;
+    padding-left: 24px;
+}
+
+.login button {
+    font-size: 24px;
+    font-weight: bold;
+    width: 490px;
+    height: 64px;
+    border-color: transparent;
+    border-radius: 100vw;
+    margin-bottom: 20px;
+}
+
+button:hover{
+    background: #C4C4C4;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.signin {
+    margin-top: 0;
+}
+
+#switch .col-6{
+    float: left;
+    display: inline;
+}
+#switch button{
+    display: inline;
+    width: 100%;
+}
+#reg1{
+    display: none;
+}
+#reg2{
+    display: none;
+}
